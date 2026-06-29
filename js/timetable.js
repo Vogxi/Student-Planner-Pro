@@ -109,7 +109,7 @@ function renderTimetable() {
             <td>${item.teacher}</td>
             <td>${item.room}</td>
             <td>
-                <button onclick="editSubject('${day}', ${index})">✏️</button>
+                <button onclick="editSubject('${selectedDay}', ${index})">✏️</button>
                 <button onclick="deleteSubject(${index})">🗑️</button>
             </td>
         </tr>
